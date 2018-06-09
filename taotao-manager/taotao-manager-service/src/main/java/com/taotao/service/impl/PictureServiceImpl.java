@@ -55,9 +55,8 @@ public class PictureServiceImpl implements PictureService{
 				} catch (IOException e) {
 					resultMap.put("error", 1);
 					resultMap.put("message", "文件上传发生异常");
+					return resultMap;
 				}
-				
-		return null;
 	}
 
 }
