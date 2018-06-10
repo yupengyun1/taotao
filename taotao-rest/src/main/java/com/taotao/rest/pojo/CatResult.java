@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class CatResult {
 
-	@JsonProperty("date")
+	@JsonProperty("data")
 	private List<?> data;
 
 	public List<?> getData() {
